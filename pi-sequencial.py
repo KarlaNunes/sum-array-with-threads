@@ -16,7 +16,7 @@ def calcular_pi(numero_de_pontos):
 
 if __name__ == '__main__':
 
-    numero_de_pontos = int(sys.argv[1])
+    numero_de_pontos = int(input("Informe o número de pontos: \n"))
     start_time = time.time()  # Inicia a medição do tempo
     pi_estimado = calcular_pi(numero_de_pontos)
     end_time = time.time()  # Termina a medição do tempo
